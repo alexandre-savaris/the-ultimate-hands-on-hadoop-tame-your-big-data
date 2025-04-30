@@ -1,0 +1,5 @@
+### Python
+$ python StretchBreakdown.py u.data
+
+### Python + Hadoop
+$ python StretchBreakdown.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
