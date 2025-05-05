@@ -5,3 +5,8 @@ $ spark-submit LowestRatedMovieDataFrame.py
 
 $ export SPARK_MAJOR_VERSION=2
 $ spark-submit MovieRecommendationsALS.py
+
+$ spark-submit LowestRatedPopularMovieSpark.py
+
+$ export SPARK_MAJOR_VERSION=2
+$ spark-submit LowestRatedPopularMovieDataFrame.py
