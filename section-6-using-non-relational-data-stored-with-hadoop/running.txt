@@ -4,3 +4,7 @@ $ /usr/hdp/current/hbase-master/bin/hbase-daemon.sh start rest -p 8010 --infopor
 -- Cassandra with Spark.
 $ export SPARK_MAJOR_VERSION=2
 $ spark-submit --packages datastax:spark-cassandra-connector:2.0.0-M2-s 2.11 CassandraSpark.py
+
+-- MongoDB with Spark.
+$ export SPARK_MAJOR_VERSION=2
+$ spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.2 MongoSpark.py
